@@ -1,0 +1,23 @@
+/* Style for labels */
+.label {
+    background-color: #3498db;
+    color: #fff;
+    font-size: 0.8rem;
+    margin: 3px;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+/* Style for user account features */
+.user-info {
+    text-align: right;
+    font-size: 0.8rem;
+}
+
+.logout-button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 3px 10px;
+    cursor: pointer;
+}

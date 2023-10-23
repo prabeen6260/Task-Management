@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Advanced Task Management App</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Advanced Task Management App</h1>
+
+    <div class="input-container">
+        <input type="text" id="taskName" placeholder="Task name">
+        <select id="priority">
+            <option value="high">High Priority</option>
+            <option value="medium" selected>Medium Priority</option>
+            <option value="low">Low Priority</option>
+        </select>
+        <input type="text" id="dueDate" placeholder="Due Date (optional)">
+        <input type="text" id="labels" placeholder="Labels (comma-separated, e.g., Label1, Label2)">
+        <button id="addTaskButton">Add Task</button>
+    </div>
+
+    <div>
+        <h2>Task List</h2>
+        <ul id="taskList"></ul>
+    </div>
+
+    <div class="user-info">
+        <span id="userAccountInfo">Not logged in</span>
+        <button id="logoutButton" class="logout-button">Logout</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
